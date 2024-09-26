@@ -103,13 +103,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IkH-7S-6rf">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IkH-7S-6rf">
                                 <rect key="frame" x="96" y="103" width="200" height="125"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ww-NR-Bun">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="101.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="37.666666666666664"/>
                                         <attributedString key="attributedText">
-                                            <fragment content="Multiplier Shop">
+                                            <fragment content="The Shop">
                                                 <attributes>
                                                     <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="NSColor" systemColor="systemOrangeColor"/>
@@ -123,7 +123,7 @@
                                         <size key="shadowOffset" width="0.0" height="2"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Points: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOu-Me-xlO">
-                                        <rect key="frame" x="0.0" y="101.66666666666667" width="200" height="23.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="37.66666666666665" width="200" height="87.333333333333314"/>
                                         <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -136,7 +136,7 @@
                                     <constraint firstAttribute="width" constant="200" id="on7-YS-WKA"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="GGQ-uY-bc2">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="GGQ-uY-bc2">
                                 <rect key="frame" x="84" y="331" width="225" height="39.666666666666686"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTP-B2-MBg">
@@ -159,7 +159,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-4V-c9J">
-                                        <rect key="frame" x="85.333333333333329" y="0.0" width="54.666666666666671" height="39.666666666666664"/>
+                                        <rect key="frame" x="85.333333333333343" y="0.0" width="54.666666666666657" height="39.666666666666664"/>
                                         <size key="titleShadowOffset" width="0.0" height="2"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
@@ -202,7 +202,7 @@
                                     <constraint firstAttribute="width" constant="225" id="568-06-qqr"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="44l-pP-gSW">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="44l-pP-gSW">
                                 <rect key="frame" x="84" y="487.00000000000006" width="225" height="58.666666666666686"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMF-32-9ZW">
@@ -225,13 +225,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEN-Tq-qzh">
-                                        <rect key="frame" x="127.33333333333331" y="0.0" width="97.666666666666686" height="58.666666666666664"/>
+                                        <rect key="frame" x="117" y="0.0" width="108" height="58.666666666666664"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="Audio">
+                                                <fragment content="Cookie">
                                                     <attributes>
-                                                        <font key="NSFont" size="25" name="Copperplate-Bold"/>
+                                                        <font key="NSFont" size="24" name="Copperplate-Bold"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -241,6 +241,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="audio:" destination="VX5-HZ-6fr" eventType="touchUpInside" id="IJw-ln-nFd"/>
+                                            <action selector="cookie:" destination="VX5-HZ-6fr" eventType="touchUpInside" id="uKc-M0-WKh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -283,8 +284,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(In progress)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDq-VP-wWR">
-                                        <rect key="frame" x="127.66666666666666" y="0.0" width="97.333333333333343" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDq-VP-wWR">
+                                        <rect key="frame" x="184.66666666666669" y="0.0" width="40.333333333333343" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -298,13 +299,20 @@
                         <viewLayoutGuide key="safeArea" id="l2K-yK-6HY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="l2K-yK-6HY" firstAttribute="trailing" secondItem="GGQ-uY-bc2" secondAttribute="trailing" constant="84" id="56x-Lb-Ilc"/>
+                            <constraint firstItem="44l-pP-gSW" firstAttribute="leading" secondItem="l2K-yK-6HY" secondAttribute="leading" constant="84" id="5MK-Cq-wpc"/>
                             <constraint firstItem="XNs-Cq-DtH" firstAttribute="leading" secondItem="l2K-yK-6HY" secondAttribute="leading" constant="84" id="B0O-Le-lAd"/>
+                            <constraint firstItem="l2K-yK-6HY" firstAttribute="trailing" secondItem="IkH-7S-6rf" secondAttribute="trailing" constant="97" id="EBL-Rh-qcP"/>
                             <constraint firstItem="H2n-89-F5w" firstAttribute="top" secondItem="44l-pP-gSW" secondAttribute="bottom" constant="7.3300000000000001" id="Gj4-OE-0om"/>
                             <constraint firstItem="l2K-yK-6HY" firstAttribute="trailing" secondItem="XNs-Cq-DtH" secondAttribute="trailing" constant="84" id="Q9L-M2-35D"/>
-                            <constraint firstItem="44l-pP-gSW" firstAttribute="top" secondItem="XNs-Cq-DtH" secondAttribute="bottom" constant="88.670000000000002" id="U6E-JU-IFb"/>
                             <constraint firstItem="XNs-Cq-DtH" firstAttribute="top" secondItem="GGQ-uY-bc2" secondAttribute="bottom" constant="7.3300000000000001" id="Vc8-Pz-ppl"/>
+                            <constraint firstItem="GGQ-uY-bc2" firstAttribute="leading" secondItem="l2K-yK-6HY" secondAttribute="leading" constant="84" id="Xwi-xa-nQM"/>
                             <constraint firstItem="l2K-yK-6HY" firstAttribute="trailing" secondItem="H2n-89-F5w" secondAttribute="trailing" constant="84" id="Xwj-A7-qNm"/>
+                            <constraint firstItem="l2K-yK-6HY" firstAttribute="trailing" secondItem="44l-pP-gSW" secondAttribute="trailing" constant="84" id="ZL5-53-FcO"/>
+                            <constraint firstItem="44l-pP-gSW" firstAttribute="top" secondItem="XNs-Cq-DtH" secondAttribute="bottom" constant="88.670000000000002" id="ZRI-PM-Xnd"/>
+                            <constraint firstItem="IkH-7S-6rf" firstAttribute="leading" secondItem="l2K-yK-6HY" secondAttribute="leading" constant="96" id="pC1-nt-i0v"/>
                             <constraint firstItem="H2n-89-F5w" firstAttribute="leading" secondItem="l2K-yK-6HY" secondAttribute="leading" constant="84" id="pZu-tX-kMZ"/>
+                            <constraint firstItem="GGQ-uY-bc2" firstAttribute="top" secondItem="IkH-7S-6rf" secondAttribute="bottom" constant="103" id="qY6-1q-9vx"/>
                             <constraint firstItem="l2K-yK-6HY" firstAttribute="bottom" secondItem="H2n-89-F5w" secondAttribute="bottom" constant="244.66999999999999" id="yIw-rS-b5w"/>
                         </constraints>
                     </view>

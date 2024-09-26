@@ -25,6 +25,7 @@ class ShopViewController: UIViewController {
             self.present(alert, animated: true)
         } else {
             AppData.points -= 100
+            pointsLabel.text = "Points: \(AppData.points)"
             AppData.mult = 2
         }
     }
@@ -34,6 +35,7 @@ class ShopViewController: UIViewController {
             self.present(alert, animated: true)
         } else {
             AppData.points -= 500
+            pointsLabel.text = "Points: \(AppData.points)"
             AppData.mult = 3
         }
     }
@@ -43,14 +45,29 @@ class ShopViewController: UIViewController {
             self.present(alert, animated: true)
         } else {
             AppData.points -= 1000
+            pointsLabel.text = "Points: \(AppData.points)"
             AppData.mult = 5
         }
     }
     
     @IBAction func randomImages(_ sender: Any) {
+        if AppData.points < 5000{
+            self.present(alert, animated: true)
+        } else {
+            AppData.points -= 5000
+            pointsLabel.text = "Points: \(AppData.points)"
+            AppData.randomImages = true
+        }
     }
     
-    @IBAction func audio(_ sender: Any) {
+    @IBAction func cookie(_ sender: Any) {
+        if AppData.points < 10000{
+            self.present(alert, animated: true)
+        } else {
+            AppData.points -= 10000
+            pointsLabel.text = "Points: \(AppData.points)"
+            AppData.cookie = true
+        }
     }
     
 }
