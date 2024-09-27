@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     }
     
     func updateScore(){
-        scoreLabel.text = "\(AppData.points) points"
+        scoreLabel.text = "\(AppData.points)pts"
     }
     
 }
