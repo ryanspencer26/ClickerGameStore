@@ -8,7 +8,7 @@
 import UIKit
 
 class AppData: UIViewController {
-    static var points = 10000
+    static var points = 0
     static var mult = 1
     static var cookie = false
     static var randomImages = false

@@ -17,6 +17,7 @@ class ShopViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         pointsLabel.text = "Points: \(AppData.points)"
+        alert.addAction(button)
     }
     
     
@@ -51,20 +52,20 @@ class ShopViewController: UIViewController {
     }
     
     @IBAction func randomImages(_ sender: Any) {
-        if AppData.points < 5000{
+        if AppData.points < 2500{
             self.present(alert, animated: true)
         } else {
-            AppData.points -= 5000
+            AppData.points -= 2500
             pointsLabel.text = "Points: \(AppData.points)"
             AppData.randomImages = true
         }
     }
     
     @IBAction func cookie(_ sender: Any) {
-        if AppData.points < 10000{
+        if AppData.points < 5000{
             self.present(alert, animated: true)
         } else {
-            AppData.points -= 10000
+            AppData.points -= 5000
             pointsLabel.text = "Points: \(AppData.points)"
             AppData.cookie = true
         }

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClickerGameStore" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,7 +80,7 @@
                             <outletCollection property="gestureRecognizers" destination="XCT-yU-NpY" appends="YES" id="9Af-wz-Npc"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="heQ-DF-T1d"/>
+                    <navigationItem key="navigationItem" title="Home" id="heQ-DF-T1d"/>
                     <connections>
                         <outlet property="imageView" destination="msE-dZ-T3w" id="iJR-TF-LjI"/>
                         <outlet property="scoreLabel" destination="T5l-Cz-0CQ" id="kNn-3R-5eI"/>
@@ -95,7 +95,7 @@
             </objects>
             <point key="canvasLocation" x="947.32824427480909" y="3.5211267605633805"/>
         </scene>
-        <!--Shop View Controller-->
+        <!--Shop-->
         <scene sceneID="e0j-9R-rPs">
             <objects>
                 <viewController id="VX5-HZ-6fr" customClass="ShopViewController" customModule="ClickerGameStore" customModuleProvider="target" sceneMemberID="viewController">
@@ -240,8 +240,7 @@
                                             <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="audio:" destination="VX5-HZ-6fr" eventType="touchUpInside" id="IJw-ln-nFd"/>
-                                            <action selector="cookie:" destination="VX5-HZ-6fr" eventType="touchUpInside" id="uKc-M0-WKh"/>
+                                            <action selector="cookie:" destination="VX5-HZ-6fr" eventType="touchUpInside" id="8tv-ch-iLg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -278,14 +277,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="H2n-89-F5w">
                                 <rect key="frame" x="84" y="553" width="225" height="20.333333333333371"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.0k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-ry-iuo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.5k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-ry-iuo">
                                         <rect key="frame" x="0.0" y="0.0" width="32.666666666666664" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDq-VP-wWR">
-                                        <rect key="frame" x="184.66666666666669" y="0.0" width="40.333333333333343" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.0k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDq-VP-wWR">
+                                        <rect key="frame" x="192.33333333333331" y="0.0" width="32.666666666666657" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -316,7 +315,7 @@
                             <constraint firstItem="l2K-yK-6HY" firstAttribute="bottom" secondItem="H2n-89-F5w" secondAttribute="bottom" constant="244.66999999999999" id="yIw-rS-b5w"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Jhr-nm-QUr"/>
+                    <navigationItem key="navigationItem" title="Shop" id="Jhr-nm-QUr"/>
                     <connections>
                         <outlet property="pointsLabel" destination="dOu-Me-xlO" id="sCw-Xm-hXw"/>
                     </connections>
